@@ -1,0 +1,64 @@
+body, html {
+  height: 100%;
+}
+
+body{
+  background: #ffffff url("../img/bg.png") repeat right top;
+}
+
+h1{
+  color: #E6E6E6;
+}
+
+h2 {
+    color: #CCCAC9;
+    font-weight: 100;
+}
+
+div.body-wrapper{
+  text-align:center;
+    height: 100%;
+    display: flex;
+}
+
+.col-centered{
+    background-color: rgba(135,144,152,0.4);
+    border-radius: 10px;
+    text-align: center;
+    margin:auto;
+    padding:0;
+}
+
+.col-centered > div{
+  border-bottom-radius: 10px;
+  padding:0;
+}
+.col-centered a{
+  padding-top: 5px;
+  display: inline-block;
+  height: 100px;
+  color: #000;
+  margin-top: 15px;
+}
+.col-centered a:last-of-type{
+  border: none;
+}
+
+.col-centered a:hover{
+  color: #843939;
+  background-color: rgba(135,144,152,0.7);
+}
+
+.col-centered a:last-of-type{
+    border-bottom-right-radius: 10px;
+}
+
+.col-centered a:first-of-type{
+    border-bottom-left-radius: 10px;
+}
+
+.col-centered span{
+  display: block;
+  font-size: 9px;
+
+}
