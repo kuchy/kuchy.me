@@ -30,21 +30,38 @@ div.body-wrapper{
 }
 
 .col-centered > div{
-  border-bottom-radius: 10px;
   padding:0;
+  display: inline-block;
+  position: relative;
 }
-.col-centered a{
+.col-centered a, .col-centered div.cv{
   padding-top: 5px;
   display: inline-block;
   height: 100px;
   color: #000;
-  margin-top: 15px;
+  position: relative;
 }
+
+.col-centered div.cv a{
+  margin-top: 0;
+  height: 10px;
+}
+
+.col-centered a.cv-en{
+  padding: 0;
+  height: 10px;
+}
+
+.cv-en{
+  position: fixed;
+  bottom: 2px;
+}
+
 .col-centered a:last-of-type{
   border: none;
 }
 
-.col-centered a:hover{
+.col-centered a:hover, .col-centered div.cv:hover{
   color: #843939;
   background-color: rgba(135,144,152,0.7);
 }
